@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Ali Shakir</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scriptAS.js" defer></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Ali Shakir</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>This is where you’ll write a short bio about yourself. Who are you? What are your interests? What have you done so far in your journey?</p>
+    </section>
+
+    <!-- Info Grid Section -->
+    <div class="grid">
+        <div class="square">I am 22 years old.</div>
+        <div class="square">I love playing video games.</div>
+        <div class="square">I play a game called Destiny 2, and it's my favourite game!</div>
+        <div class="square">I have done a course similar to this in another college but never had it in this way (Github posting)</div>
+        <div class="square">I am liking Web development a lot given that I have a huge interest in websites!</div>
+        <div class="square">To ensure you think I'm human, orange crayons taste good! (Joke)</div>
+    </div>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <p>Click on a project to reveal more information.</p>
+        <!-- New changes: The project gallery will be dynamically added by JavaScript -->
+        <div id="project-gallery"></div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <!-- New changes: Added a contact form for user input validation -->
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Ali Shakir</p>
+    </footer>
+</body>
+</html>
